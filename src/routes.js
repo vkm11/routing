@@ -27,7 +27,9 @@ const routes=[
     path:'/:pathMatch(.*)*',
     component: PageNotFound
 },
-
+// vue-2 page not found
+//{path:"*",component:PageNotFound}
+// page not found this path all time we can put last
 ];
 const router=createRouter({
     history:createWebHistory(),
